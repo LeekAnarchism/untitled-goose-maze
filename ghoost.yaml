@@ -44,7 +44,7 @@ intro:
     - "you are stuck in a maze. the word softwire is printed on your stomach and this makes you unreasonably angry."
     - "you instinctively start to follow the left wall, but the interview questions have recently been revamped, so instead of going forward, 
     left and right your movement options are [[north]] ([[n]]), [[south]] ([[s]]), [[east]] ([[e]]) or [[west]] ([[w]])."
-    - "you can [[look]] around you, [[examine]] things, and perform other [[context-sensitive verbs]]"
+    - "you can [[look]] around you, [[use]] things, and perform other [[context-sensitive verbs]]"
     - "oh, and..."
     - "you can also [[honk]]"
 global:
@@ -108,9 +108,9 @@ locations:
       - "Beyond the mess you can see an alluring treasure chest."
     actions:
       - inputs:
-          - "examine toys"
-          - "examine chest"
-          - "examine treasure chest"
+          - "use toys"
+          - "use chest"
+          - "use treasure chest"
           - "go to chest"
           - "open chest"
           - "walk to chest"
@@ -133,7 +133,7 @@ locations:
       - "Along the path you see a politician approaching with his two speechwriters."
     actions:
       - inputs:
-          - "examine politician"
+          - "use politician"
           - "talk to politician"
           - "ed milliband"
           - "milliband"
@@ -186,8 +186,8 @@ locations:
       - "There are some shrubberies here. You think you can hear some rustling."
     actions:
       - inputs:
-          - "examine shrubbery"
-          - "examine bush"
+          - "use shrubbery"
+          - "use bush"
         outputs:
           - "You stride confiently up to the shrubbery and stick your apparitional beak in to investigate the source of the noise."
           - "'Ow!'"
@@ -242,7 +242,7 @@ locations:
       - "It's just as you remembered, except there are now even more boxes labelled 'DO NOT THROW AWAY'"
     actions:
       - inputs:
-        - "examine boxes"
+        - "use boxes"
         - "throw away boxes"
         outputs:
           - "Wasting no time, you use your almighty spectral beak to pull down and tear open the boxes."
@@ -365,7 +365,7 @@ locations:
       - "There is a cauldron."
     actions:
       - inputs:
-        - "examine cauldron"
+        - "use cauldron"
         - "look at cauldron"
         - "cauldron"
         outputs:
@@ -545,10 +545,10 @@ locations:
       - "There is a cassette player, and walls to the west and north."
     actions:
       - inputs:
-          - "examine cassette"
+          - "use cassette"
           - "use cassette"
           - "play cassette"
-          - "examine tape"
+          - "use tape"
           - "use tape"
           - "use player"
         outputs:
@@ -597,7 +597,7 @@ locations:
     actions:
       - inputs:
           - "open mailbox"
-          - "examine mailbox"
+          - "use mailbox"
         outputs:
           - "you open the mailbox with your bill. there is a letter in the mailbox."
           - "that letter is: s"
@@ -647,9 +647,9 @@ locations:
       - "you find a horse. he looks roughly four years old. he has a name badge on his horse-collar."
     actions:
       - inputs:
-          - "examine collar"
-          - "examine badge"
-          - "examine name badge"
+          - "use collar"
+          - "use badge"
+          - "use name badge"
         outputs:
           - "the badge has a big H on it. on the reverse side the badge reads 'hugo', followed by an email to contact if the horse is lost."
           - "before you can call the number, though, he bares his teeth as if to bite, so you back away."
