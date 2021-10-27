@@ -265,6 +265,8 @@ locations:
         - "listen to music"
         - "listen to lincoln"
         - "listen to lincoln stone"
+        - "lincoln"
+        - "lincoln stone"
         outputs:
           - "Why, it's only the ex-West End performer best known for his work in 'SoftPant 2016: A Christmas Carol' as Ebenezer Scrooge, Lincoln Stone!"
           - "Captivated by his majestic voice, you try to listen to what he is singing:"
