@@ -125,7 +125,7 @@ locations:
     south: true
     west: true
 
-  - name: "4-1 l - Ed Milliband"
+  - name: "4-1 l - Ed Miliband"
     x: 4
     y: 1
     intros:
@@ -135,8 +135,15 @@ locations:
       - inputs:
           - "use politician"
           - "talk to politician"
-          - "ed milliband"
-          - "milliband"
+          - "ed"
+          - "use ed"
+          - "talk to ed"
+          - "miliband"
+          - "use miliband"
+          - "talk to miliband"
+          - "ed miliband"
+          - "use ed miliband"
+          - "talk to ed miliband"
           - "gareth"
           - "#gareth"
         outputs:
@@ -144,8 +151,8 @@ locations:
           - "'Honk?'"
           - "Unfortunately, you are both a goose, and a ghost; both demographics which aren't big vote-winners for this particular politician, so he ignores you."
           - "You follow him until he starts talking to a local software developer. You listen closely:"
-          - "'Hello, I'm Ed Milliband, from the labour party''"
-          - "They discuss house prices for a while, and then take a selfie, in which Ed Milliband performs his signature pose,
+          - "'Hello, I'm Ed Miliband, from the labour party''"
+          - "They discuss house prices for a while, and then take a selfie, in which Ed Miliband performs his signature pose,
           making the shape of his party name's first letter on his forehead."
     south: true
 
